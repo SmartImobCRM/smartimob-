@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="centering-container">
+        <div class="lower-container">
+            <div class="columns-container">
+                <div class="footer-column">
+                    <h2>IMÓVEIS</h2>
+                    <ul>
+                        <li>
+                            <a href="#">Comprar Imóveis</a>
+                        </li>
+                        <li>
+                            <a href="#">Vender Imóveis</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h2>AGENTES</h2>
+                    <ul>
+                        <li>
+                            <a href="#">Comprar Imóveis</a>
+                        </li>
+                        <li>
+                            <a href="#">Vender Imóveis</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h2>EMPRESA</h2>
+                    <ul>
+                        <li>
+                            <a href="#">Quem Somos</a>
+                        </li>
+                        <li>
+                            <a href="#">Segurança Jurídica</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h2>INSTITUCIONAL</h2>
+                    <ul>
+                        <li>
+                            <a href="#">Quem Somos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <div class="bottom-footer-container">
+                    <img alt="logo" src="static/logo_smart_contrast.png" />
+                    <span>
+                        <a href="#">POLÍTICA DE PRIVACIDADE</a>
+                        <a href="#">TERMOS DE USO</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<style>
+    /* 😅 Little CSS Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    ul {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    /* Little CSS Reset End */
+
+    .centering-container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lower-container {
+        width: 100%;
+        background: #202b3e;
+        font-family: 'Roboto', sans-serif;
+    }
+    .lower-container .columns-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+        max-width: 85%;
+        margin: 0 auto;
+    }
+    .lower-container .columns-container h2 {
+        color: #fff;
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+    .lower-container .columns-container a {
+        display: block;
+        color: #bab5df;
+        font-size: 1rem;
+        margin-bottom: 25px;
+    }
+    .lower-container .columns-container a:hover,
+    .lower-container .columns-container a:active {
+        color: #fff;
+    }
+    .bottom-footer {
+      background: #0c1423;
+      width: 100%;
+    }
+    .bottom-footer .bottom-footer-container {
+        display: flex;
+        align-items: center;
+        padding: 50px;
+        padding-left: 0;
+        justify-content: space-between;
+        max-width: 85%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .bottom-footer .bottom-footer-container img {
+        max-width: 320px;
+        max-height: 100px;
+    }
+    .bottom-footer .bottom-footer-container span {
+          display: flex;
+          align-items: center;
+    }
+    .bottom-footer .bottom-footer-container span a {
+        color: #bab5df;
+        font-size: 1rem;
+        }
+    .bottom-footer .bottom-footer-container span a:last-child {
+        margin-left: 40px;
+    }
+    .bottom-footer .bottom-footer-container span a:hover,
+    .bottom-footer .bottom-footer-container span a:active {
+        color: #fff;
+    }
+</style>
